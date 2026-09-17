@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Es Mambo | Segarnya Bikin Nagih</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                🍭 ES MAMBO
+            </a>
+
+            <nav class="menu">
+                <a href="#home">Home</a>
+                <a href="#produk">Produk</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+
+            <button id="open-cart" class="cart-button">
+                🛒
+                <span id="cart-count">0</span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="container hero-container">
+
+            <div class="hero-text">
+
+                <div class="badge">
+                    🍧 ES MAMBO 2026
+                </div>
+
+                <h1>
+                    Segarnya
+                    <span>Bikin Nagih!</span>
+                </h1>
+
+                <p>
+                    Es mambo dengan berbagai pilihan rasa.
+                    Segar, enak, dan cocok untuk menemani
+                    hari kamu.
+                </p>
+
+                <a href="#produk" class="main-button">
+                    Lihat Produk
+                </a>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="hero-circle"></div>
+
+                <div class="hero-ice">
+                    🍧
+                </div>
+
+                <div class="hero-title">
+                    ES MAMBO
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUK -->
+    <section class="products" id="produk">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>MENU KAMI</span>
+
+                <h2>
+                    Pilih Rasa Favoritmu
+                </h2>
+
+                <p>
+                    Semua rasa hanya Rp2.000!
+                </p>
+
+            </div>
+
+
+            <div class="product-grid">
+
+
+                <!-- TARO -->
+                <div class="product-card">
+
+                    <div class="product-image taro">
+                        💜
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag purple">
+                            FAVORIT
+                        </span>
+
+                        <h3>Taro</h3>
+
+                        <p>
+                            Rasa taro lembut dan creamy.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Taro"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MANGGA -->
+                <div class="product-card">
+
+                    <div class="product-image mango">
+                        🥭
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag green">
+                            SEGAR
+                        </span>
+
+                        <h3>Mangga</h3>
+
+                        <p>
+                            Rasa mangga manis dan segar.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Mangga"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MATCHA -->
+                <div class="product-card">
+
+                    <div class="product-image matcha">
+                        🍵
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag green">
+                            NEW
+                        </span>
+
+                        <h3>Matcha</h3>
+
+                        <p>
+                            Matcha lembut dengan rasa khas.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Matcha"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ALPUKAT -->
+                <div class="product-card">
+
+                    <div class="product-image avocado">
+                        🥑
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag green">
+                            FAVORIT
+                        </span>
+
+                        <h3>Alpukat</h3>
+
+                        <p>
+                            Alpukat creamy dan nikmat.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Alpukat"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- STRAWBERRY -->
+                <div class="product-card">
+
+                    <div class="product-image strawberry">
+                        🍓
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag red">
+                            FAVORIT
+                        </span>
+
+                        <h3>Strawberry</h3>
+
+                        <p>
+                            Manis dan menyegarkan.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Strawberry"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BUBBLEGUM -->
+                <div class="product-card">
+
+                    <div class="product-image bubblegum">
+                        🩷
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag purple">
+                            MANIS
+                        </span>
+
+                        <h3>Bubblegum</h3>
+
+                        <p>
+                            Bubblegum manis dan ceria.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Bubblegum"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RED VELVET -->
+                <div class="product-card">
+
+                    <div class="product-image redvelvet">
+                        ❤️
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag red">
+                            SPECIAL
+                        </span>
+
+                        <h3>Red Velvet</h3>
+
+                        <p>
+                            Red velvet lembut dan creamy.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Red Velvet"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- COKLAT -->
+                <div class="product-card">
+
+                    <div class="product-image chocolate">
+                        🍫
+                    </div>
+
+                    <div class="product-content">
+
+                        <span class="tag red">
+                            BEST SELLER
+                        </span>
+
+                        <h3>Coklat</h3>
+
+                        <p>
+                            Coklat manis dan creamy.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Rp2.000
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-name="Coklat"
+                                data-price="2000"
+                            >
+                                + Tambah
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TENTANG -->
+    <section class="about" id="tentang">
+
+        <div class="container about-container">
+
+            <div class="about-text">
+
+                <span>TENTANG KAMI</span>
+
+                <h2>
+                    Es Mambo
+                    <b>Segar</b>
+                    Setiap Hari.
+                </h2>
+
+                <p>
+                    Kami menyediakan es mambo dengan
+                    berbagai rasa favorit. Cocok untuk
+                    dinikmati bersama teman, keluarga,
+                    maupun sebagai jajanan sehari-hari.
+                </p>
+
+                <div class="features">
+
+                    <div>
+                        🟢 Fresh setiap hari
+                    </div>
+
+                    <div>
+                        🟣 8 pilihan rasa
+                    </div>
+
+                    <div>
+                        🔴 Harga hanya Rp2.000
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="about-icon">
+                    🍧
+                </div>
+
+                <h3>
+                    ES MAMBO
+                </h3>
+
+                <p>
+                    Fresh • Enak • Murah
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- KONTAK -->
+    <section class="contact" id="kontak">
+
+        <div class="container">
+
+            <div class="contact-box">
+
+                <div>
+
+                    <span>PESAN SEKARANG</span>
+
+                    <h2>
+                        Mau Es Mambo?
+                    </h2>
+
+                    <p>
+                        Pilih rasa favoritmu dan pesan
+                        melalui WhatsApp.
+                    </p>
+
+                </div>
+
+                <a
+                    href="https://wa.me/6281234567890"
+                    target="_blank"
+                    class="whatsapp-button"
+                >
+                    💬 WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CART OVERLAY -->
+    <div
+        id="cart-overlay"
+        class="cart-overlay"
+    ></div>
+
+
+    <!-- CART -->
+    <aside id="cart" class="cart">
+
+        <div class="cart-header">
+
+            <h2>
+                🛒 Keranjang
+            </h2>
+
+            <button id="close-cart">
+                ✕
+            </button>
+
+        </div>
+
+
+        <div
+            id="cart-items"
+            class="cart-items"
+        >
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="total-row">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cart-total">
+                    Rp0
+                </strong>
+
+            </div>
+
+            <button
+                id="checkout-button"
+                class="checkout-button"
+            >
+                💬 Pesan via WhatsApp
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <h3>
+                    🍭 ES MAMBO
+                </h3>
+
+                <p>
+                    Segarnya bikin nagih!
+                </p>
+            </div>
+
+            <p>
+                © 2026 Es Mambo
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
